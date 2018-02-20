@@ -37,6 +37,10 @@ public class TestBase {
         wd.findElement(By.id("password")).sendKeys(pwd);
     }
 
+
+
+
+    
     protected void enterUserName(String userName) {
         wd.findElement(By.id("user")).click();
         wd.findElement(By.id("user")).clear();
