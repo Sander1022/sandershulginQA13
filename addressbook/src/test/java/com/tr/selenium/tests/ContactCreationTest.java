@@ -4,7 +4,7 @@ import com.tr.selenium.model.ContactData;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class ContactCreationTest extends TestBase{
+public class ContactCreationTest extends TestBase {
     @Test
     public void creationContactTest(){
         app.getNavigationHelper().goToHomePage();

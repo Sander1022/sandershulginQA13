@@ -3,7 +3,7 @@ package com.tr.selenium.tests;
 import com.tr.selenium.model.GroupData;
 import org.testng.annotations.Test;
 
-public class GroupModificationTests extends TestBase{
+public class GroupModificationTests extends TestBase {
   @Test
   public  void modifyGrouptest(){
       app.getNavigationHelper().goToGroupsPage();
